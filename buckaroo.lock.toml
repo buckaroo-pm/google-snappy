@@ -1,0 +1,17 @@
+manifest = "3d78456f00bf040f156743b7e5788aa269fb21e0e1c333237eea5aa489e10017"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/google-googletest"
+target = "//:googletest"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/madler-zlib"
+target = "//:zlib"
+
+[lock."github.com/buckaroo-pm/google-googletest"]
+versions = [ "branch=master" ]
+revision = "cb8d2c1a2fcd344953e6c129a1a699a2c230551d"
+
+[lock."github.com/buckaroo-pm/madler-zlib"]
+versions = [ "branch=master" ]
+revision = "906f727175ca6a7f8943e375467d6e461a55b68d"

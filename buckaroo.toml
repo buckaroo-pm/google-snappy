@@ -1,0 +1,10 @@
+targets = [ "//:snappy" ]
+
+[[dependency]]
+package = "github.com/buckaroo-pm/google-googletest"
+version = "branch=master"
+private = true
+
+[[dependency]]
+package = "github.com/buckaroo-pm/madler-zlib"
+version = "branch=master"
